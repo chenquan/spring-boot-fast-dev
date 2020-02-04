@@ -10,7 +10,7 @@ import com.alibaba.fastjson.JSONObject;
  * @Class: ResultBody.java
  * @Version: 1.0
  * @Date: 2020/2/1
- * @Description:
+ * @Description: 统一请求返回类
  */
 
 public class ResultResponse {

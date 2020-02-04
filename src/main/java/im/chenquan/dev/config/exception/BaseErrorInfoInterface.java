@@ -7,7 +7,7 @@ package im.chenquan.dev.config.exception;
  * @Class: BaseErrorInfoInterface.java
  * @Version: 1.0
  * @Date: 2020/2/1
- * @Description:
+ * @Description: 错误信息基础接口
  */
 
 public interface BaseErrorInfoInterface {
