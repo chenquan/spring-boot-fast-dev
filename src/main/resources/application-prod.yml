@@ -1,0 +1,9 @@
+swagger:
+  enable: false
+spring:
+  mvc:
+    ### 让mvc直接抛出异常，在全局异常类，捕获404 异常的类 NoHandlerFoundException.class
+    throw-exception-if-no-handler-found: true
+  resources:
+    ### 关闭资源映射
+    add-mappings: false

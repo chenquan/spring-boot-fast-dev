@@ -1,0 +1,12 @@
+version: "3"
+services:
+  album:
+    image: spring-boot-fast-dev:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+    - 8080:8080
+    dns:
+      - 101.132.38.180:db.chenquan.im
+    container_name: spring-boot-fast-dev
